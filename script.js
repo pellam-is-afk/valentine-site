@@ -15,7 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
         'https://i.ibb.co/MkmKZbs5/Whats-App-Image-2026-02-08-at-18-16-27-3.jpg',
         'https://i.ibb.co/mV34Qp56/Whats-App-Image-2026-02-08-at-18-16-27.jpg',
         'https://i.ibb.co/N6k20WWY/Whats-App-Image-2026-02-08-at-18-16-28-1.jpg',
-        'https://i.ibb.co/FLkcXV0Y/Whats-App-Image-2026-02-08-at-18-16-28.jpg'
+        'https://i.ibb.co/FLkcXV0Y/Whats-App-Image-2026-02-08-at-18-16-28.jpg',
+        'https://i.ibb.co/ZpkJYXH1/Whats-App-Image-2026-02-08-at-19-28-18.jpg',
+        'https://i.ibb.co/spKCPGBD/Whats-App-Image-2026-02-08-at-19-28-19.jpg'
     ];
 
     const noTexts = [
@@ -66,3 +68,4 @@ document.addEventListener('DOMContentLoaded', () => {
         celebration.style.display = 'block';
     });
 });
+
