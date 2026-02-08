@@ -9,8 +9,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    overflow: hidden;
+    height: 100svh;
+    overflow: auto;
     position: relative;
 }
 
@@ -89,22 +89,28 @@ button:disabled {
 
 @media (max-width: 480px) {
 
-    #celebration {
-        font-size: 1.2em;
-    }
+#celebration {
+    color: #ff1493;
+    font-size: clamp(1rem, 4vw, 1.4rem);
+    max-height: 85svh;
+    overflow-y: auto;
+}
 
-    #celebration h2 {
-        font-size: 1.4em;
-        margin-bottom: 10px;
-    }
 
-    #celebration ul {
-        font-size: 0.9em;
-    }
+#celebration h2 {
+    font-size: clamp(1.2rem, 5vw, 1.6rem);
+    margin-bottom: 10px;
+}
+
+#celebration ul {
+    font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+}
+
 
     .photo {
-        width: 220px;
-        height: 220px;
+        width: 200px;
+        height: 200px;
     }
 
 }
+
