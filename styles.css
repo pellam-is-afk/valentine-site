@@ -84,4 +84,27 @@ button:disabled {
 
 #celebration li {
     margin: 10px 0;
+
+}
+
+@media (max-width: 480px) {
+
+    #celebration {
+        font-size: 1.2em;
+    }
+
+    #celebration h2 {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    #celebration ul {
+        font-size: 0.9em;
+    }
+
+    .photo {
+        width: 220px;
+        height: 220px;
+    }
+
 }
